@@ -1,0 +1,57 @@
+div
+{
+  float: left;
+  margin:20px;
+}
+.size
+{
+  height:350px;
+  width: 300px;
+  border-radius: 30px;
+}
+div.trainer1
+{
+  position: relative;
+  color: gray;
+}
+div.trainer2
+{
+  position: relative;
+  color: gray;
+}
+div.trainer3
+{
+  position: relative;
+  color: gray;
+}
+div.trainer4
+{
+  position: relative;
+  color: gray;
+}
+.trainer2 h2{
+  text-align: center;
+}
+.trainer1 h2{
+  text-align: center;
+}
+.trainer3 h2{
+  text-align: center;
+}
+.trainer4 h2{
+  text-align: center;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 20%;
+}
+.size {
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+.size:hover {
+    transform: scale(1.06);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
